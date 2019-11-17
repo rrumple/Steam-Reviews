@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052D2D732381F391001A6963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2D722381F391001A6963 /* AppDelegate.swift */; };
+		052D2D752381F391001A6963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2D742381F391001A6963 /* SceneDelegate.swift */; };
+		052D2D772381F391001A6963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2D762381F391001A6963 /* ViewController.swift */; };
+		052D2D7A2381F391001A6963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D2D782381F391001A6963 /* Main.storyboard */; };
+		052D2D7C2381F393001A6963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052D2D7B2381F393001A6963 /* Assets.xcassets */; };
+		052D2D7F2381F393001A6963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D2D7D2381F393001A6963 /* LaunchScreen.storyboard */; };
+		052D2D8A2381F394001A6963 /* Steam_ReviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2D892381F394001A6963 /* Steam_ReviewsTests.swift */; };
+		052D2D952381F394001A6963 /* Steam_ReviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2D942381F394001A6963 /* Steam_ReviewsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		052D2D862381F394001A6963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 052D2D672381F391001A6963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052D2D6E2381F391001A6963;
+			remoteInfo = "Steam Reviews";
+		};
+		052D2D912381F394001A6963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 052D2D672381F391001A6963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052D2D6E2381F391001A6963;
+			remoteInfo = "Steam Reviews";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052D2D6F2381F391001A6963 /* Steam Reviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Steam Reviews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		052D2D722381F391001A6963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		052D2D742381F391001A6963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		052D2D762381F391001A6963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		052D2D792381F391001A6963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		052D2D7B2381F393001A6963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		052D2D7E2381F393001A6963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		052D2D802381F393001A6963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052D2D852381F394001A6963 /* Steam ReviewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Steam ReviewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		052D2D892381F394001A6963 /* Steam_ReviewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steam_ReviewsTests.swift; sourceTree = "<group>"; };
+		052D2D8B2381F394001A6963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052D2D902381F394001A6963 /* Steam ReviewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Steam ReviewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		052D2D942381F394001A6963 /* Steam_ReviewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steam_ReviewsUITests.swift; sourceTree = "<group>"; };
+		052D2D962381F394001A6963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052D2D6C2381F391001A6963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D2D822381F394001A6963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D2D8D2381F394001A6963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052D2D662381F391001A6963 = {
+			isa = PBXGroup;
+			children = (
+				052D2D712381F391001A6963 /* Steam Reviews */,
+				052D2D882381F394001A6963 /* Steam ReviewsTests */,
+				052D2D932381F394001A6963 /* Steam ReviewsUITests */,
+				052D2D702381F391001A6963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		052D2D702381F391001A6963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				052D2D6F2381F391001A6963 /* Steam Reviews.app */,
+				052D2D852381F394001A6963 /* Steam ReviewsTests.xctest */,
+				052D2D902381F394001A6963 /* Steam ReviewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		052D2D712381F391001A6963 /* Steam Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				052D2D722381F391001A6963 /* AppDelegate.swift */,
+				052D2D742381F391001A6963 /* SceneDelegate.swift */,
+				052D2D762381F391001A6963 /* ViewController.swift */,
+				052D2D782381F391001A6963 /* Main.storyboard */,
+				052D2D7B2381F393001A6963 /* Assets.xcassets */,
+				052D2D7D2381F393001A6963 /* LaunchScreen.storyboard */,
+				052D2D802381F393001A6963 /* Info.plist */,
+			);
+			path = "Steam Reviews";
+			sourceTree = "<group>";
+		};
+		052D2D882381F394001A6963 /* Steam ReviewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				052D2D892381F394001A6963 /* Steam_ReviewsTests.swift */,
+				052D2D8B2381F394001A6963 /* Info.plist */,
+			);
+			path = "Steam ReviewsTests";
+			sourceTree = "<group>";
+		};
+		052D2D932381F394001A6963 /* Steam ReviewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				052D2D942381F394001A6963 /* Steam_ReviewsUITests.swift */,
+				052D2D962381F394001A6963 /* Info.plist */,
+			);
+			path = "Steam ReviewsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		052D2D6E2381F391001A6963 /* Steam Reviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052D2D992381F394001A6963 /* Build configuration list for PBXNativeTarget "Steam Reviews" */;
+			buildPhases = (
+				052D2D6B2381F391001A6963 /* Sources */,
+				052D2D6C2381F391001A6963 /* Frameworks */,
+				052D2D6D2381F391001A6963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Steam Reviews";
+			productName = "Steam Reviews";
+			productReference = 052D2D6F2381F391001A6963 /* Steam Reviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		052D2D842381F394001A6963 /* Steam ReviewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052D2D9C2381F394001A6963 /* Build configuration list for PBXNativeTarget "Steam ReviewsTests" */;
+			buildPhases = (
+				052D2D812381F394001A6963 /* Sources */,
+				052D2D822381F394001A6963 /* Frameworks */,
+				052D2D832381F394001A6963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052D2D872381F394001A6963 /* PBXTargetDependency */,
+			);
+			name = "Steam ReviewsTests";
+			productName = "Steam ReviewsTests";
+			productReference = 052D2D852381F394001A6963 /* Steam ReviewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		052D2D8F2381F394001A6963 /* Steam ReviewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052D2D9F2381F394001A6963 /* Build configuration list for PBXNativeTarget "Steam ReviewsUITests" */;
+			buildPhases = (
+				052D2D8C2381F394001A6963 /* Sources */,
+				052D2D8D2381F394001A6963 /* Frameworks */,
+				052D2D8E2381F394001A6963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052D2D922381F394001A6963 /* PBXTargetDependency */,
+			);
+			name = "Steam ReviewsUITests";
+			productName = "Steam ReviewsUITests";
+			productReference = 052D2D902381F394001A6963 /* Steam ReviewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		052D2D672381F391001A6963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = RG;
+				TargetAttributes = {
+					052D2D6E2381F391001A6963 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					052D2D842381F394001A6963 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 052D2D6E2381F391001A6963;
+					};
+					052D2D8F2381F394001A6963 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 052D2D6E2381F391001A6963;
+					};
+				};
+			};
+			buildConfigurationList = 052D2D6A2381F391001A6963 /* Build configuration list for PBXProject "Steam Reviews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 052D2D662381F391001A6963;
+			productRefGroup = 052D2D702381F391001A6963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052D2D6E2381F391001A6963 /* Steam Reviews */,
+				052D2D842381F394001A6963 /* Steam ReviewsTests */,
+				052D2D8F2381F394001A6963 /* Steam ReviewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052D2D6D2381F391001A6963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D2D7F2381F393001A6963 /* LaunchScreen.storyboard in Resources */,
+				052D2D7C2381F393001A6963 /* Assets.xcassets in Resources */,
+				052D2D7A2381F391001A6963 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D2D832381F394001A6963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D2D8E2381F394001A6963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052D2D6B2381F391001A6963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D2D772381F391001A6963 /* ViewController.swift in Sources */,
+				052D2D732381F391001A6963 /* AppDelegate.swift in Sources */,
+				052D2D752381F391001A6963 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D2D812381F394001A6963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D2D8A2381F394001A6963 /* Steam_ReviewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D2D8C2381F394001A6963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D2D952381F394001A6963 /* Steam_ReviewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		052D2D872381F394001A6963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052D2D6E2381F391001A6963 /* Steam Reviews */;
+			targetProxy = 052D2D862381F394001A6963 /* PBXContainerItemProxy */;
+		};
+		052D2D922381F394001A6963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052D2D6E2381F391001A6963 /* Steam Reviews */;
+			targetProxy = 052D2D912381F394001A6963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		052D2D782381F391001A6963 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052D2D792381F391001A6963 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		052D2D7D2381F393001A6963 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052D2D7E2381F393001A6963 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		052D2D972381F394001A6963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		052D2D982381F394001A6963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		052D2D9A2381F394001A6963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SQK575VL8;
+				INFOPLIST_FILE = "Steam Reviews/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrumple.Steam-Reviews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		052D2D9B2381F394001A6963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SQK575VL8;
+				INFOPLIST_FILE = "Steam Reviews/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrumple.Steam-Reviews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		052D2D9D2381F394001A6963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SQK575VL8;
+				INFOPLIST_FILE = "Steam ReviewsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrumple.Steam-ReviewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steam Reviews.app/Steam Reviews";
+			};
+			name = Debug;
+		};
+		052D2D9E2381F394001A6963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SQK575VL8;
+				INFOPLIST_FILE = "Steam ReviewsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrumple.Steam-ReviewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steam Reviews.app/Steam Reviews";
+			};
+			name = Release;
+		};
+		052D2DA02381F394001A6963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SQK575VL8;
+				INFOPLIST_FILE = "Steam ReviewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrumple.Steam-ReviewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Steam Reviews";
+			};
+			name = Debug;
+		};
+		052D2DA12381F394001A6963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SQK575VL8;
+				INFOPLIST_FILE = "Steam ReviewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrumple.Steam-ReviewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Steam Reviews";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052D2D6A2381F391001A6963 /* Build configuration list for PBXProject "Steam Reviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D2D972381F394001A6963 /* Debug */,
+				052D2D982381F394001A6963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052D2D992381F394001A6963 /* Build configuration list for PBXNativeTarget "Steam Reviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D2D9A2381F394001A6963 /* Debug */,
+				052D2D9B2381F394001A6963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052D2D9C2381F394001A6963 /* Build configuration list for PBXNativeTarget "Steam ReviewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D2D9D2381F394001A6963 /* Debug */,
+				052D2D9E2381F394001A6963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052D2D9F2381F394001A6963 /* Build configuration list for PBXNativeTarget "Steam ReviewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D2DA02381F394001A6963 /* Debug */,
+				052D2DA12381F394001A6963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 052D2D672381F391001A6963 /* Project object */;
+}
