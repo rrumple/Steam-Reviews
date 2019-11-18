@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		052D2D732381F391001A6963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2D722381F391001A6963 /* AppDelegate.swift */; };
 		052D2D752381F391001A6963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2D742381F391001A6963 /* SceneDelegate.swift */; };
-		052D2D772381F391001A6963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2D762381F391001A6963 /* ViewController.swift */; };
 		052D2D7A2381F391001A6963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D2D782381F391001A6963 /* Main.storyboard */; };
 		052D2D7C2381F393001A6963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052D2D7B2381F393001A6963 /* Assets.xcassets */; };
 		052D2D7F2381F393001A6963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D2D7D2381F393001A6963 /* LaunchScreen.storyboard */; };
 		052D2D8A2381F394001A6963 /* Steam_ReviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2D892381F394001A6963 /* Steam_ReviewsTests.swift */; };
 		052D2D952381F394001A6963 /* Steam_ReviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2D942381F394001A6963 /* Steam_ReviewsUITests.swift */; };
+		052D2DA32381F454001A6963 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2DA22381F454001A6963 /* TableViewController.swift */; };
+		052D2DA52381F4D0001A6963 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2DA42381F4D0001A6963 /* SwiftyJSON.swift */; };
+		052D2DA82381F50A001A6963 /* Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 052D2DA62381F50A001A6963 /* Game.xcdatamodeld */; };
+		052D2DAB2381F9C3001A6963 /* Game+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2DA92381F9C3001A6963 /* Game+CoreDataClass.swift */; };
+		052D2DAC2381F9C3001A6963 /* Game+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2DAA2381F9C3001A6963 /* Game+CoreDataProperties.swift */; };
+		052D2DAF238247C0001A6963 /* Review+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2DAD238247C0001A6963 /* Review+CoreDataClass.swift */; };
+		052D2DB0238247C0001A6963 /* Review+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2DAE238247C0001A6963 /* Review+CoreDataProperties.swift */; };
+		052D2DB223824829001A6963 /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2DB123824829001A6963 /* ReviewTableViewController.swift */; };
+		052D2DB42382560B001A6963 /* ReviewDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D2DB32382560B001A6963 /* ReviewDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,6 @@
 		052D2D6F2381F391001A6963 /* Steam Reviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Steam Reviews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		052D2D722381F391001A6963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		052D2D742381F391001A6963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		052D2D762381F391001A6963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		052D2D792381F391001A6963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		052D2D7B2381F393001A6963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		052D2D7E2381F393001A6963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		052D2D902381F394001A6963 /* Steam ReviewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Steam ReviewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		052D2D942381F394001A6963 /* Steam_ReviewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steam_ReviewsUITests.swift; sourceTree = "<group>"; };
 		052D2D962381F394001A6963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052D2DA22381F454001A6963 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = SOURCE_ROOT; };
+		052D2DA42381F4D0001A6963 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		052D2DA72381F50A001A6963 /* Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Game.xcdatamodel; sourceTree = "<group>"; };
+		052D2DA92381F9C3001A6963 /* Game+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		052D2DAA2381F9C3001A6963 /* Game+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		052D2DAD238247C0001A6963 /* Review+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Review+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		052D2DAE238247C0001A6963 /* Review+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Review+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		052D2DB123824829001A6963 /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
+		052D2DB32382560B001A6963 /* ReviewDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +115,18 @@
 		052D2D712381F391001A6963 /* Steam Reviews */ = {
 			isa = PBXGroup;
 			children = (
+				052D2DAD238247C0001A6963 /* Review+CoreDataClass.swift */,
+				052D2DAE238247C0001A6963 /* Review+CoreDataProperties.swift */,
+				052D2DA92381F9C3001A6963 /* Game+CoreDataClass.swift */,
+				052D2DAA2381F9C3001A6963 /* Game+CoreDataProperties.swift */,
+				052D2DA42381F4D0001A6963 /* SwiftyJSON.swift */,
+				052D2DA22381F454001A6963 /* TableViewController.swift */,
 				052D2D722381F391001A6963 /* AppDelegate.swift */,
 				052D2D742381F391001A6963 /* SceneDelegate.swift */,
-				052D2D762381F391001A6963 /* ViewController.swift */,
 				052D2D782381F391001A6963 /* Main.storyboard */,
+				052D2DB32382560B001A6963 /* ReviewDetailViewController.swift */,
+				052D2DB123824829001A6963 /* ReviewTableViewController.swift */,
+				052D2DA62381F50A001A6963 /* Game.xcdatamodeld */,
 				052D2D7B2381F393001A6963 /* Assets.xcassets */,
 				052D2D7D2381F393001A6963 /* LaunchScreen.storyboard */,
 				052D2D802381F393001A6963 /* Info.plist */,
@@ -259,9 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				052D2D772381F391001A6963 /* ViewController.swift in Sources */,
+				052D2DAC2381F9C3001A6963 /* Game+CoreDataProperties.swift in Sources */,
+				052D2DA82381F50A001A6963 /* Game.xcdatamodeld in Sources */,
 				052D2D732381F391001A6963 /* AppDelegate.swift in Sources */,
+				052D2DB42382560B001A6963 /* ReviewDetailViewController.swift in Sources */,
+				052D2DAF238247C0001A6963 /* Review+CoreDataClass.swift in Sources */,
+				052D2DB0238247C0001A6963 /* Review+CoreDataProperties.swift in Sources */,
+				052D2DA32381F454001A6963 /* TableViewController.swift in Sources */,
 				052D2D752381F391001A6963 /* SceneDelegate.swift in Sources */,
+				052D2DB223824829001A6963 /* ReviewTableViewController.swift in Sources */,
+				052D2DA52381F4D0001A6963 /* SwiftyJSON.swift in Sources */,
+				052D2DAB2381F9C3001A6963 /* Game+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +622,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		052D2DA62381F50A001A6963 /* Game.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				052D2DA72381F50A001A6963 /* Game.xcdatamodel */,
+			);
+			currentVersion = 052D2DA72381F50A001A6963 /* Game.xcdatamodel */;
+			path = Game.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 052D2D672381F391001A6963 /* Project object */;
 }

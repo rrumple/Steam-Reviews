@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="19A602" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Game" representedClassName="Game" syncable="YES">
+        <attribute name="appid" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="review" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Review" inverseName="reviews" inverseEntity="Review"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="appid"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Review" representedClassName="Review" syncable="YES">
+        <attribute name="appid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="author" attributeType="String"/>
+        <attribute name="createdTimestamp" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="numberOfGamesOwned" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="playtimeForever" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="review" attributeType="String"/>
+        <attribute name="reviewID" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="voteScore" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="reviews" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="review" inverseEntity="Game"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="reviewID"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="Game" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Review" positionX="-54" positionY="9" width="128" height="178"/>
+    </elements>
+</model>
